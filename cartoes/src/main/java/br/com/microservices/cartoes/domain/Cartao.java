@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 @Entity
 @Data
 @NoArgsConstructor
-public class Cartao {
+public class  Cartao {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;

@@ -1,12 +1,9 @@
 package br.com.microservices.cartoes.application.service;
 
-import br.com.microservices.cartoes.domain.Cartao;
 import br.com.microservices.cartoes.domain.ClienteCartao;
 import br.com.microservices.cartoes.infra.repository.ClienteCartaoRepository;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 @Service
